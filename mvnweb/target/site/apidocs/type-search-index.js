@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"lab.web","l":"Drivers"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"lab.web","l":"Drivers"},{"p":"lab.web","l":"Drivers.Res"},{"p":"lab.web","l":"Drivers.Res_en"},{"p":"lab.web","l":"Drivers.Res_ru"}];updateSearchResults();
