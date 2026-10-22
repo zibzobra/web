@@ -1,0 +1,17 @@
+# Maven output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse files
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+
+# Java
+*.class
+
+# Logs
+*.log
