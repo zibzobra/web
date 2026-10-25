@@ -6,5 +6,26 @@
          version="4.0">
 
   <display-name>Archetype Created Web Application</display-name>
-
+		<security-constraint>
+	    <web-resource-collection>
+	        <web-resource-name>Список пилотов</web-resource-name>
+	        <url-pattern>/Drivers.jsp</url-pattern>
+	    </web-resource-collection>
+	    <auth-constraint>
+	        <role-name>manager</role-name>
+	        <role-name>tomcat</role-name>
+	    </auth-constraint>
+	</security-constraint>
+	
+	<login-config>
+	    <auth-method>BASIC</auth-method>
+	    <realm-name>F1 Drivers</realm-name>
+	</login-config>
+	
+	<security-role>
+	    <role-name>manager</role-name>
+	</security-role>
+	<security-role>
+	    <role-name>tomcat</role-name>
+	</security-role>
 </web-app>
