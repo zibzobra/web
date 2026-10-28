@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Пилоты Формулы-1</title>
+    <style>
+      body { font-family: Arial, sans-serif; text-align: center; }
+      .sendButton { padding: 6px 16px; }
+      .dialogVPanel { margin: 5px; }
+    </style>
+    <script type="text/javascript" language="javascript"
+            src="driversmodule/driversmodule.nocache.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <div style="width: 22em; margin: 1em auto; color: red;">
+        Для работы приложения необходимо включить JavaScript.
+      </div>
+    </noscript>
+
+    <h1>Сервис для отображения списка пилотов Формулы-1</h1>
+
+    <table align="center">
+      <tr>
+        <td colspan="2" style="font-weight: bold;">Выберите команду:</td>
+      </tr>
+      <tr>
+        <td id="teamListBoxContainer"></td>
+        <td id="sendButtonContainer"></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="color: red;" id="errorLabelContainer"></td>
+      </tr>
+    </table>
+  </body>
+</html>
