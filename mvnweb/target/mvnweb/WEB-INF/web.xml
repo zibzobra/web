@@ -5,17 +5,4 @@
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <display-name>Archetype Created Web Application</display-name>
-
-    <!-- Описание сервлета -->
-    <servlet>
-        <servlet-name>DriversServlet</servlet-name>
-        <servlet-class>lab.web.Drivers</servlet-class>
-    </servlet>
-
-    <!-- Ссылка (путь), по которой он будет доступен -->
-    <servlet-mapping>
-        <servlet-name>DriversServlet</servlet-name>
-        <url-pattern>/drivers</url-pattern>
-    </servlet-mapping>
-
 </web-app>
